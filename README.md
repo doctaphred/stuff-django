@@ -11,7 +11,7 @@ To install the project, along with all development requirements, and run a full 
 
 Before running the project itself, in your shell:
 
-3. Export the `DJANGO_SECRET_KEY` environment variable.
+3. Export the `DJANGO_SECRET_KEY` and `DJANGO_DEBUG` environment variables.
 4. Activate the virtualenv (`source venv/bin/activate`).
 
 
