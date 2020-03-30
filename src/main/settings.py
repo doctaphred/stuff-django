@@ -27,6 +27,8 @@ ALLOWED_HOSTS = environ.get('DJANGO_ALLOWED_HOSTS', '').split()
 # Application definition
 
 INSTALLED_APPS = [
+    'accounts.apps.Config',
+    'stuff.apps.Config',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -45,7 +47,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'stuff.conf.urls'
+ROOT_URLCONF = 'main.urlconf'
 
 TEMPLATES = [
     {
@@ -63,7 +65,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'stuff.conf.wsgi.application'
+WSGI_APPLICATION = 'main.wsgi.application'
 
 
 # Database
@@ -76,6 +78,8 @@ DATABASES = {
     }
 }
 
+
+AUTH_USER_MODEL = 'accounts.User'
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
