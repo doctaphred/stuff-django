@@ -4,29 +4,62 @@
 #
 #    pip-compile requirements/build.in
 #
-appdirs==1.4.3            # via virtualenv
-asgiref==3.2.7            # via django
-attrs==19.3.0             # via pytest
-distlib==0.3.0            # via virtualenv
-django==3.0.4             # via -r requirements/main.in
-entrypoints==0.3          # via flake8
-filelock==3.0.12          # via tox, virtualenv
-flake8==3.7.9             # via -r requirements/build.in
-importlib-metadata==1.6.0  # via pluggy, pytest, tox, virtualenv
-mccabe==0.6.1             # via flake8
-more-itertools==8.2.0     # via pytest
-packaging==20.3           # via pytest, tox
-pluggy==0.13.1            # via pytest, tox
-py==1.8.1                 # via pytest, tox
-pycodestyle==2.5.0        # via flake8
-pyflakes==2.1.1           # via flake8
-pyparsing==2.4.6          # via packaging
-pytest==5.4.1             # via -r requirements/build.in
-pytz==2019.3              # via django
-six==1.14.0               # via packaging, tox, virtualenv
-sqlparse==0.3.1           # via django
-toml==0.10.0              # via tox
-tox==3.14.6               # via -r requirements/build.in
-virtualenv==20.0.15       # via tox
-wcwidth==0.1.9            # via pytest
-zipp==3.1.0               # via importlib-metadata
+appdirs==1.4.3
+    # via virtualenv
+asgiref==3.2.7
+    # via django
+attrs==19.3.0
+    # via pytest
+distlib==0.3.0
+    # via virtualenv
+django==3.0.4
+    # via -r main.in
+entrypoints==0.3
+    # via flake8
+filelock==3.0.12
+    # via
+    #   tox
+    #   virtualenv
+flake8==3.7.9
+    # via -r build.in
+mccabe==0.6.1
+    # via flake8
+more-itertools==8.2.0
+    # via pytest
+packaging==20.3
+    # via
+    #   pytest
+    #   tox
+pluggy==0.13.1
+    # via
+    #   pytest
+    #   tox
+py==1.10.0
+    # via
+    #   pytest
+    #   tox
+pycodestyle==2.5.0
+    # via flake8
+pyflakes==2.1.1
+    # via flake8
+pyparsing==2.4.6
+    # via packaging
+pytest==5.4.1
+    # via -r build.in
+pytz==2019.3
+    # via django
+six==1.14.0
+    # via
+    #   packaging
+    #   tox
+    #   virtualenv
+sqlparse==0.3.1
+    # via django
+toml==0.10.0
+    # via tox
+tox==3.14.6
+    # via -r build.in
+virtualenv==20.0.15
+    # via tox
+wcwidth==0.1.9
+    # via pytest

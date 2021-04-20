@@ -4,54 +4,117 @@
 #
 #    pip-compile requirements/dev.in
 #
-appdirs==1.4.3            # via virtualenv
-appnope==0.1.0            # via ipython
-asgiref==3.2.7            # via django
-attrs==19.3.0             # via pytest
-backcall==0.1.0           # via ipython
-click==7.1.1              # via pip-tools
-decorator==4.4.2          # via ipython, traitlets
-distlib==0.3.0            # via virtualenv
-django==3.0.4             # via -r requirements/main.in
-entrypoints==0.3          # via flake8
-fancycompleter==0.9.1     # via pdbpp
-filelock==3.0.12          # via tox, virtualenv
-flake8==3.7.9             # via -r requirements/build.in
-importlib-metadata==1.6.0  # via pluggy, pytest, tox, virtualenv
-ipython-autotime==0.1     # via -r requirements/dev.in
-ipython-genutils==0.2.0   # via traitlets
-ipython==7.13.0           # via -r requirements/dev.in
-jedi==0.16.0              # via ipython
-mccabe==0.6.1             # via flake8
-more-itertools==8.2.0     # via pytest
-packaging==20.3           # via pytest, tox
-parso==0.6.2              # via jedi
-pdbpp==0.10.2             # via -r requirements/dev.in
-pexpect==4.8.0            # via ipython
-pickleshare==0.7.5        # via ipython
-pip-tools==4.5.1          # via -r requirements/dev.in
-pluggy==0.13.1            # via pytest, tox
-pp-ez==0.2.0              # via -r requirements/dev.in
-pprintpp==0.4.0           # via -r requirements/dev.in
-prompt-toolkit==3.0.5     # via ipython
-ptyprocess==0.6.0         # via pexpect
-py==1.8.1                 # via pytest, tox
-pycodestyle==2.5.0        # via flake8
-pyflakes==2.1.1           # via flake8
-pygments==2.6.1           # via ipython, pdbpp
-pyparsing==2.4.6          # via packaging
-pyrepl==0.9.0             # via fancycompleter
-pytest==5.4.1             # via -r requirements/build.in
-pytz==2019.3              # via django
-six==1.14.0               # via packaging, pip-tools, tox, traitlets, virtualenv
-sqlparse==0.3.1           # via django
-toml==0.10.0              # via tox
-tox==3.14.6               # via -r requirements/build.in, -r requirements/dev.in
-traitlets==4.3.3          # via ipython
-virtualenv==20.0.15       # via tox
-wcwidth==0.1.9            # via prompt-toolkit, pytest
-wmctrl==0.3               # via pdbpp
-zipp==3.1.0               # via importlib-metadata
+appdirs==1.4.3
+    # via virtualenv
+asgiref==3.2.7
+    # via django
+attrs==19.3.0
+    # via pytest
+backcall==0.1.0
+    # via ipython
+click==7.1.1
+    # via pip-tools
+decorator==4.4.2
+    # via
+    #   ipython
+    #   traitlets
+distlib==0.3.0
+    # via virtualenv
+django==3.0.4
+    # via -r main.in
+entrypoints==0.3
+    # via flake8
+fancycompleter==0.9.1
+    # via pdbpp
+filelock==3.0.12
+    # via
+    #   tox
+    #   virtualenv
+flake8==3.7.9
+    # via -r build.in
+ipython-autotime==0.1
+    # via -r dev.in
+ipython-genutils==0.2.0
+    # via traitlets
+ipython==7.13.0
+    # via -r dev.in
+jedi==0.16.0
+    # via ipython
+mccabe==0.6.1
+    # via flake8
+more-itertools==8.2.0
+    # via pytest
+packaging==20.3
+    # via
+    #   pytest
+    #   tox
+parso==0.6.2
+    # via jedi
+pdbpp==0.10.2
+    # via -r dev.in
+pexpect==4.8.0
+    # via ipython
+pickleshare==0.7.5
+    # via ipython
+pip-tools==4.5.1
+    # via -r dev.in
+pluggy==0.13.1
+    # via
+    #   pytest
+    #   tox
+pp-ez==0.2.0
+    # via -r dev.in
+pprintpp==0.4.0
+    # via -r dev.in
+prompt-toolkit==3.0.5
+    # via ipython
+ptyprocess==0.6.0
+    # via pexpect
+py==1.10.0
+    # via
+    #   pytest
+    #   tox
+pycodestyle==2.5.0
+    # via flake8
+pyflakes==2.1.1
+    # via flake8
+pygments==2.6.1
+    # via
+    #   ipython
+    #   pdbpp
+pyparsing==2.4.6
+    # via packaging
+pyrepl==0.9.0
+    # via fancycompleter
+pytest==5.4.1
+    # via -r build.in
+pytz==2019.3
+    # via django
+six==1.14.0
+    # via
+    #   packaging
+    #   pip-tools
+    #   tox
+    #   traitlets
+    #   virtualenv
+sqlparse==0.3.1
+    # via django
+toml==0.10.0
+    # via tox
+tox==3.14.6
+    # via
+    #   -r build.in
+    #   -r dev.in
+traitlets==4.3.3
+    # via ipython
+virtualenv==20.0.15
+    # via tox
+wcwidth==0.1.9
+    # via
+    #   prompt-toolkit
+    #   pytest
+wmctrl==0.3
+    # via pdbpp
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
